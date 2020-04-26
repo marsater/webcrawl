@@ -1,7 +1,7 @@
 const request = require('request');
 const cheerio = require('cheerio');
-const mongoose = require('fs');
 
+// Sidor att besöka
 const url = "https://www.teamsportia.se/produktkategori/cykel/klassiska-cyklar/damcyklar/";
 const url1 = "https://www.teamsportia.se/produktkategori/cykel/barncyklar/barncyklar-20/";
 const url2 = "https://www.teamsportia.se/produktkategori/cykel/mountainbike-mtb/";
