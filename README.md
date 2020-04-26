@@ -1,5 +1,7 @@
 # Webcrawling test
-Using cheerio to parse *html*
+Using cheerio to parse *html*.
+
+Besöker hemsida och listar cyklar och pris.
 
 ##### Sample output
 ```

@@ -28,9 +28,6 @@ function kollaPris(URL,typ){
     });
 }
 
- typ = 'Damcyklar:';
-kollaPris(url, typ);
-typ = 'Barncyklar:';
-kollaPris(url1, typ);
-typ = 'Mountainbike:';
-kollaPris(url2, typ);
+kollaPris(url, 'Damcyklar:');
+kollaPris(url1, 'Barncyklar:');
+kollaPris(url2, 'Mountainbike:');
